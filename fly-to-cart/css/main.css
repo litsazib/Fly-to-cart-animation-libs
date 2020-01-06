@@ -33,6 +33,19 @@ a#logo {
 	width: 100%;
 	margin-top: 2em;
 }
+.rocket:before {
+    content: "";
+    clear: both;
+    background-image: url(../img/plus.png);
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -10px;
+    left: 0;
+}
 
 .rocket_base {
 	padding-top: 4em;
